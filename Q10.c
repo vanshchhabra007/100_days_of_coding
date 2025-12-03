@@ -13,9 +13,10 @@ int main() {
     minutes = (total_seconds % 3600) / 60;
     seconds = total_seconds % 60;
 
-    // Display result
+    
     printf("%d:%d:%d", hours, minutes, seconds);
 
     return 0;
 }
+
 
